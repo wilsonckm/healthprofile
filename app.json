@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wchan.healthprofile"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "react-native-health"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0e9f3f23-3b29-4d7b-9232-03ebaac5fbf1"
+      }
     }
   }
 }
